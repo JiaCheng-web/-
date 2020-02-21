@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.nav{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.game_Interface{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: #ccc;
+}
+
+.game_Interface_div{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    background-color: #fff;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+.start_Game{
+    width: 70px;
+    height: 30px;
+    margin: auto;
+}
+
+.start_Game>button{
+    width: 70px;
+    height: 30px;
+}
+
+.Fraction{
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+.Fraction>span{
+    color: brown;
+}
+
+/* 
+    2、4、6、8、16、32、64、128、256样式
+*/
+.bg2{
+    background-color:papayawhip;
+    color: #000;
+}
+
+.bg4{
+    background-color:pink;
+    color: white;
+}
+
+.bg8{
+    background-color:orange;
+    color: white;
+}
+
+.bg16{
+    background-color:palegreen;
+    color: #fff;
+}
+
+.bg32{
+    background-color:rgb(0, 119, 255);
+    color: rgb(255, 255, 255);
+}
+.bg64{
+    background-color:palevioletred;
+    color: white;
+}
+.bg128{
+    background-color: crimson;
+    color: #fff;
+}
+.bg256{
+    background-color: darkmagenta;
+    color: #fff;
+}
